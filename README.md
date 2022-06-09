@@ -1,3 +1,3 @@
 # PortfolioWebsite
 a fun creative portfolio website 
-https://duchessdiya.github.io/PortfolioWebsite/
+https://duchessdiya.github.io/Portfolio-Website/
