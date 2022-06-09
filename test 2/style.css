@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    background-size: 2000px 900px;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    z-index: 1;
+    height: 100vh;
+    min-height: 500px;
+}
+button{
+    background-color: rgb(125, 177, 177);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 14px;
+    padding: 10px 25px;
+
+}
+.modal-container{
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0; /*before*/
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: opacity 0.3s ease;
+}
+.modal-container.show{
+    pointer-events: auto;
+    opacity: 1; /*after*/
+}
+.modal{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px 50px;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+}
+.modal h1{
+    margin: 0;
+}
+.modal p{
+    font-size: 14px;
+    opacity: 0.7;
+    line-height: 25px;
+}
+/*
+a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50px, -50px);
+    width: 200px;
+    height: 75px;
+    background: white;
+    border-radius: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #262626;
+    transition: 0.2s;
+}
+a.active{
+    background: transparent;
+    color: #fff;
+}
+a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ff0047;
+    width: 50%;
+    height: 100%;
+    transition: 0.2s;
+    z-index: -1;
+    transform: translateX(-200px) rotate(-325deg);
+    opacity: 0;
+}
+a.active:before{
+
+    left: 30.5px;
+    transform: translateX(0px) rotate(35deg);
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px;
+    opacity: 1;
+}
+a:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ff0047;
+    width: 50%;
+    height: 100%;
+    transition: 0.2s;
+    z-index: -1;
+    transform: translateX(200px) rotate(325deg);
+    opacity: 0;
+}
+a.active:after{
+
+    right: 30.5px;
+    transform: translateX(0px) rotate(-35deg);
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    opacity: 1;
+}
+*/
