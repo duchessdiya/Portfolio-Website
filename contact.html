@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script> src="https://kit.fontaesome.com/a076d05399.js"</script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        var hover = new Audio();
+        hover.src = "Sounds/click2.mp3";
+    </script>
+    <script>
+        var click1 = new Audio();
+        click1.src = "Sounds/click1spedup.mp3";
+    </script>
+    <script>
+        var click3 = new Audio();
+        click3.src = "Sounds/click3.mp3";
+    </script>
+    <script>
+        var click5 = new Audio();
+        click5.src = "Sounds/click5.mp3";
+    </script>
+</head>          
+<body>
+    <!-- <audio autoplay loop src="myscenebeat.mp3" type="audio/mpeg">
+        <p Error your browser does not support this audio> </p>  
+    </audio> -->
+    <nav class="navbar5">
+        <div class="max-width">
+             <div class="logo"><a href="home.html"onmousedown="click1.play()">My Portfolio</a></div>
+             <ul class="menu">
+                 <div class="border-box">
+                    <li><a href="home.html"onmouseenter="hover.play()"onmousedown="click1.play()"onmousedown="hover.stop()">Home</a></li> 
+                    <li><a href="about.html"onmouseenter="hover.play()"onmousedown="click1.play()"onmousedown="hover.stop()">About</a></li>
+                    <li><a href="skills.html"onmouseenter="hover.play()"onmousedown="click1.play()"onmousedown="hover.stop()">Skills</a></li>
+                    <li><a href="projects.html"onmouseenter="hover.play()"onmousedown="click1.play()"onmousedown="hover.stop()">Projects</a><li>
+                    <li><a href="contact.html"onmouseenter="hover.play()"onmousedown="click1.play()"onmousedown="hover.stop()">Contact</a></li>
+                 </div>
+             </ul>
+        </div> 
+     </nav>
+    <!--contact section starts here-->
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <h2>Let's Talk!</h2>
+            <p>I would love to discuss anything CS! Being able to familiarize myself with various perspectives in the industry is something  that enriches my own experience in the field. I would enjoy sharing my ideas with you as well!</p>
+        </div>
+        <div class="container">
+            <div class="contact-info">
+                <div class="box">
+                    <div class="icon"> <img src="Attachments/addressicon.png"class="icon"></div>
+                    <div class="text">
+                        <h3>Location</h3>
+                        <p>Dallas, TX</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"> <img src="Attachments/phoneicon.png"class="icon"></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>(469) 803-6262</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"> <img src="Attachments/emailicon.png"class="icon"></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>diyadeepak@live.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xoqrqbja" method="POST">
+                    <h2>Send a Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="message" required="required"></textarea>
+                        <span>Type your message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <!--<input type="submit" name="" value="SEND" onmouseenter="click5.play()"onmousedown="click3.play()"onmousedown="hover.stop()"target="_blank"> -->
+                        <button type="submit"onmouseenter="click5.play()"onmousedown="click3.play()"onmousedown="hover.stop()"target="_blank">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <video autoplay loop muted><source src="Video_Backgrounds/bluecompressed.mp4" type="video/mp4"></video>
+    </section>
+</body>   
+</html>

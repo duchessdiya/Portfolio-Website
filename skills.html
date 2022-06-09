@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script> src="https://kit.fontaesome.com/a076d05399.js"</script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        var hover = new Audio();
+        hover.src = "Sounds/click2.mp3";
+    </script>
+    <script>
+        var click1 = new Audio();
+        click1.src = "Sounds/click1spedup.mp3";
+    </script>
+    <script>
+        var click3 = new Audio();
+        click3.src = "Sounds/click3.mp3";
+    </script>
+    <script>
+        var click4 = new Audio();
+        click4.src = "Sounds/click4.mp3";
+    </script>
+</head>          
+<body>
+    <!-- <audio autoplay loop src="myscenebeat.mp3" type="audio/mpeg">
+        <p Error your browser does not support this audio> </p>  
+    </audio> -->
+    <nav class="navbar3">
+        <div class="max-width">
+             <div class="logo"><a href="home.html"onmousedown="click1.play()">My Portfolio</a></div>
+             <ul class="menu">
+                 <div class="border-box">
+                    <li><a href="home.html"onmouseenter="hover.play()"onmousedown="click1.play()"onmousedown="hover.stop()">Home</a></li> 
+                    <li><a href="about.html"onmouseenter="hover.play()"onmousedown="click1.play()"onmousedown="hover.stop()">About</a></li>
+                    <li><a href="skills.html"onmouseenter="hover.play()"onmousedown="click1.play()"onmousedown="hover.stop()">Skills</a></li>
+                    <li><a href="projects.html"onmouseenter="hover.play()"onmousedown="click1.play()"onmousedown="hover.stop()">Projects</a><li>
+                    <li><a href="contact.html"onmouseenter="hover.play()"onmousedown="click1.play()"onmousedown="hover.stop()">Contact</a></li>
+                 </div>
+             </ul>
+        </div> 
+     </nav>
+    <!--skills section starts here-->
+    <section class="skills" id="skills">
+        <div class="overlay"></div>
+        <div class="overlay4"></div>
+        <div class="header"><h1>Skills I've Acquired!</h1></div>
+        <div class="container" style="height:81vh; overflow:auto;">
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/htmlicon.png"class="skill-icon">
+                        </div>
+                        <h3>HTML</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/javascripticon.png"class="skill-icon">
+                        </div>
+                        <h3>Javascript</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/cssicon.png"class="skill-icon">
+                        </div>
+                        <h3>CSS</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/c++icon.png"class="skill-icon">
+                        </div>
+                        <h3>C++</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/javaicon.png"class="skill-icon">
+                        </div>
+                        <h3>Java</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/pythonicon.png"class="skill-icon">
+                        </div>
+                        <h3>Python</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/sqlicon.png"class="skill-icon">
+                        </div>
+                        <h3>mySQL</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/cicon.png"class="skill-icon">
+                        </div>
+                        <h3>C</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/rdbmsicon.png"class="skill-icon">
+                        </div>
+                        <h3>RDBMS</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/unityicon.png"class="skill-icon">
+                        </div>
+                        <h3>Unity</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/csharpicon.png"class="skill-icon">
+                        </div>
+                        <h3>C#</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+            <div class="skill-box"onmouseenter="click4.play()">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="Attachments/blendericon.png"class="skill-icon">
+                        </div>
+                        <h3>Blender</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quo corrupti! Sit quia harum libero tempore dolorum distinctio</p>
+            </div>
+        </div>
+        <video autoplay loop muted><source src="Video_Backgrounds/yellowcompressed.mp4"type="video/mp4"></video>
+    </section>
+    
+    <!--- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae suscipit nisi iure quod perferendis officiis, totam enim minus ratione nostrum, quasi, quas sint aperiam autem cupiditate quia illo reiciendis? Sed adipisci voluptatum repellat aliquam quis! Molestias, amet doloribus molestiae tenetur eveniet fugit voluptatem. Debitis aliquam sint aspernatur minima voluptates officia vel omnis harum magnam nobis fugit numquam velit aperiam dolorum, commodi necessitatibus! Laborum quia hic aliquid. Nobis quos placeat laudantium voluptates obcaecati quasi fuga, sequi in cum temporibus eos facere, dolores quidem? Aspernatur eaque officia asperiores veniam modi, quidem mollitia nesciunt, officiis quo dignissimos unde vitae explicabo reprehenderit enim quae. Fugiat debitis praesentium reprehenderit explicabo provident. Quae, commodi blanditiis cumque sunt voluptatem pariatur optio maiores sapiente molestias, nostrum nihil illo veritatis voluptatibus iste voluptate minus architecto aliquam! Ipsa tempore ducimus repudiandae ipsam repellat esse debitis, veniam cupiditate quibusdam enim nesciunt commodi delectus dolores optio magni asperiores quod impedit molestias ipsum! Ut debitis praesentium dignissimos vitae, dolorem deleniti ullam? Delectus consequatur iusto nemo porro! Voluptates ipsa repellendus corrupti ratione et nemo qui iste iusto consequuntur autem alias aspernatur laboriosam hic blanditiis suscipit atque dolorum fuga, itaque doloribus adipisci, natus quia architecto similique officiis! Explicabo, neque fuga sunt vitae nulla quasi.</p>
+    - <script> src="script.js"</script> ---> 
+    
+</body>   
+</html>
